@@ -1,0 +1,68 @@
+GridLayout:
+    cols:2
+    Label:
+        id: l0
+        text_size: self.size
+        text:''
+        font_hint:(0.1,0.3)
+        font_size: 32
+
+    Label:
+        id: l1
+        text_size: self.size
+        text:''
+        font_hint:(0.1,0.3)
+        font_size: 32
+
+    Label:
+        id: l2
+        text_size: self.size
+        text:''
+        font_hint:(0.1,0.3)
+        font_size: 32
+
+    Label:
+        id: l3
+        text_size: self.size
+        text: ''
+        font_hint:(0.1,0.3)
+        font_size: 32
+    Label:
+        id: l4
+        text_size: self.size
+        text:''
+        font_hint:(0.1,0.3)
+        font_size: 32
+
+    Label:
+        id: l5
+        text_size: self.size
+        text:''
+        font_hint:(0.1,0.3)
+        font_size: 32
+
+    TextInput:
+        id: txt
+        multiline: False
+        size_hint:(1, .5)
+
+
+
+    Button:
+        size_hint:(1, .5)
+        font_size:25
+        text: "submit"
+        on_press: app.ok()
+
+
+    Button:
+        size_hint:(1, .5)
+        font_size:24
+        text: "dd"
+        on_press: app.show()
+
+    Button:
+        size_hint:(1, .5)
+        font_size:24
+        text: "db"
+        on_press: app.db()
